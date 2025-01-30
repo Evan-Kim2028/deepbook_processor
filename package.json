@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "deepbook",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "build": "sentio build",
@@ -11,10 +11,12 @@
     "postinstall": "sentio gen"
   },
   "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
     "@sentio/sdk": "^2.57.1"
   },
   "devDependencies": {
     "@sentio/cli": "^2.25.0",
+    "@types/lru-cache": "^7.10.9",
     "typescript": "^5.5.2"
   }
 }
